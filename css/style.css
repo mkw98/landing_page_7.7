@@ -1,0 +1,32 @@
+header {
+width: 933px;
+height: 28px;
+}
+
+h1 {
+width: 844px;
+height: 55px;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 75px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+
+.button {
+width: 240px;
+height: 65px;
+background-color: #fed136;
+width: 138px;
+height: 14px;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.jumbotron {
+	background-image: url("images/Background_Image.jpg");
+}
