@@ -7,6 +7,11 @@
 	display: table ;
 	clear: both;
  }
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
 
  body {
 	margin: 0 auto;
@@ -16,8 +21,65 @@
 width: 933px;
 height: 28px;
 }
+.logo {
+	width: 79px;
+height: 28px;
+color: #fed136;
+color: #ffffff;
+font-family: "Wisdom - Script";
+font-size: 26px;
+font-weight: 400;
+line-height: 41px;
+/* Text style for "G, olden" */
+color: #fed136;
+letter-spacing: 1.3px;
+}
+.wrapper {
+	font-size: 0;
+}
 
+header>nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
+	float: right;
+	display: inline-block;
+}
+header>nav ul>li {
+	display: inline-block;
+}
 
+header>nav ul>li>a {
+	font-size: 18px;
+	line-height: 50px;
+	padding: 0 20px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;	
+}
+
+.services h1 {
+	width: 193px;
+height: 30px;
+color: #222222;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 75px;
+text-transform: uppercase;
+/* Text style for "S, ervices" */
+letter-spacing: -1px;
+}
+
+services h3 {
+}
+
+.clearfix::after, .clearfix::before {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 
 .button {
@@ -45,6 +107,17 @@ font-family: Montserrat;
 font-size: 75px;
 font-weight: 700;
 text-transform: uppercase;
+}
+
+.jumbotron h3 {
+	width: 430px;
+height: 32px;
+color: #ffffff;
+font-family: "Droid Serif";
+font-size: 40px;
+font-style: italic;
+/* Text style for "W, elcome" */
+letter-spacing: -1px;
 }
 
 
