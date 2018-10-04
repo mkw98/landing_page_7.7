@@ -11,6 +11,7 @@
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
+	text-align: center;
 }
 
  body {
@@ -59,6 +60,11 @@ header>nav ul>li>a {
 	text-transform: uppercase;	
 }
 
+.services {
+	width: 934px;
+height: 330px;
+
+}
 .services h1 {
 	width: 193px;
 height: 30px;
@@ -73,6 +79,12 @@ letter-spacing: -1px;
 }
 
 services h3 {
+	width: 296px;
+height: 17px;
+color: #777777;
+font-family: "Droid Serif";
+font-size: 16px;
+font-style: italic;
 }
 
 .clearfix::after, .clearfix::before {
@@ -120,6 +132,62 @@ font-style: italic;
 letter-spacing: -1px;
 }
 
+.contact h1 {
+/* Style for "Contact us" */
+width: 258px;
+height: 30px;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "C, ontact" */
+letter-spacing: -1px;
+}
+
+.contact h3 {
+width: 296px;
+height: 17px;
+color: #777777;
+font-family: "Droid Serif";
+font-size: 16px;
+font-style: italic;
+}
+.services .title h1 {
+	width: 118px;
+height: 18px;
+color: #222222;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 75px;
+/* Text style for "W, eb Secu" */
+letter-spacing: -0.45px;
+}
+.team .title h1 {
+	width: 110px;
+	height: 37px;
+	color: #777777;
+	font-family: "Roboto Slab";
+	font-size: 14px;
+	font-weight: 400;
+/* Text style for "U, ku Maso" */
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: -0.4px;
+	line-height: 50px;
+/* Text style for "Graphic De" */
+	font-family: "Roboto Slab";
+	font-weight: 400;
+	letter-spacing: -0.35px;
+}
+.portfolio {
+	/*width: 1557px;
+height: 1219px; */
+background-color: #f7f7f7;
+}
 
 /*header {
 
@@ -229,6 +297,8 @@ header>nav img {
 h1 {
 	padding: 10px;
 }
+
+	
 */
 [class*="col-"] {
 	float: left;
